@@ -2,4 +2,4 @@
 
 ## freeCodeCamp Project
 
-### This project is used HTML, CSS, JavaScript and the D# svg-based visualization library.
+### This project is used HTML, CSS, JavaScript and the D3 svg-based visualization library.
