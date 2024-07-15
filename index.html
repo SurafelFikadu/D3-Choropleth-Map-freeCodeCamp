@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FCC: D3 Choropleth Map</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./folderJS/d3.min.js"></script>
+    <script src="./folderJS/topojson.min.js"></script>
+    <script src="./folderJS/d3-scale-chromatic.min.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <h1 id="title">United States Educational Attainment</h1>
+      <div id="description">
+        Percentage of adults age 25 and older with a bachelor's degree or higher
+        (2010-2014)
+      </div>
+      <svg width="960" height="600"></svg>
+      <div id="source">
+        Source:
+        <a
+          href="https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx"
+          >USDA Economic Research Service</a
+        >
+      </div>
+    </div>
+    <script src="./folderJS/bundleTest.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
